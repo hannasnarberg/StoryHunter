@@ -2,8 +2,6 @@
 
 ### Hanna Snarberg, Hanna Almqvist, My Andersson, Frida Jansson
 
-#### DH2642
-
 [Click here to reach deployed application!](https://storyhunter-2a3c7.web.app/)
 
 ## Description of the project
