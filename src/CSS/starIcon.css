@@ -1,0 +1,12 @@
+.starIcon {
+    color: #dde000;
+}
+
+.starIcon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.titleStarIcon {
+    color: #dde000;
+}

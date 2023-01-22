@@ -1,0 +1,55 @@
+.button {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #ffffff00;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+@media all and (max-width: 30em) {
+    .button {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+.searchButton {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #ffffff00;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.searchButton:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+@media all and (max-width: 30em) {
+    .searchButton {
+        display: block;
+        margin: 0.4em auto;
+    }
+}

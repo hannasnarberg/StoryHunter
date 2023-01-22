@@ -1,0 +1,29 @@
+.container1BeforeSimilar {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(14, 26, 12);
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    padding-right: 30px;
+}
+
+.container2BeforeSimilar {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+}
+
+.searchBarBeforeSimilar {
+    width: 200px;
+    border-radius: 10px 0px 0px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    height: 23px;
+}

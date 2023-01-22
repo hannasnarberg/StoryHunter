@@ -1,0 +1,73 @@
+.containerHeader {
+    display: flex;
+    width: 100wh;
+    grid-gap: 10px;
+    background-color: rgb(14, 26, 12);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    min-width: max-content; 
+}
+
+.containerHeader > div {
+    text-align: center;
+}
+
+.container1Header {
+    flex-grow: 1;
+}
+
+.container2Header {
+    flex-grow: 20;
+    margin-top: 26px;
+    position: relative;
+}
+
+.logoutButtonHeader {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: #ffffff00;
+    cursor: pointer;
+    height: fit-content;
+    margin-top: 1.5%;
+    border-radius: 10px;
+}
+
+.logoutButtonHeader:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.moveLeftHeader {
+    float: left;
+    margin-top: 26px;
+}
+
+.homeButtonHeader {
+    cursor: pointer;
+    padding-left: 10px;
+    font-style: italic;
+    float: left;
+}
+
+.inputTextBoxHeader {
+    width: 350px;
+    height: 23px;
+    border-radius: 10px 0px 0px 10px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+.tagLineHeader {
+    padding-top: 27px;
+    display: inline-block;
+}

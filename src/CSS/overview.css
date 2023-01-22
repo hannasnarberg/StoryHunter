@@ -1,0 +1,109 @@
+.content {
+    margin-right: 70px;
+    margin-left: 30px;
+    width: 1050px; 
+    float: right;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.box .starButton {
+    position: absolute;
+    top: 2%;
+    left: 55%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1350px) {
+    .content {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    .content {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .content {
+        width: 720px;
+    }
+    .box .starButton {
+        position: absolute;
+        top: 2%;
+        left: 50%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}
+
+.filterChoicesContainer {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    background-color: rgb(186, 209, 181);
+    height: 50px;
+    width: 250px;
+}
+
+.filterChosen,
+.filterNotChosen {
+    display: inline;
+    border: transparent;
+    border-radius: 16px;
+}
+
+.filterChosen {
+    background-color: rgb(14, 26, 12);
+    color: white;
+
+}
+
+.filterNotChosen {
+    background-color: transparent;
+    color: rgb(87, 85, 85);
+    cursor: pointer;
+
+}
+
+.filterNotChosen:hover{
+    box-shadow: 0 0 7px 1px rgb(197, 238, 144);
+
+}
+
+.filterTitles {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: rgb(255, 255, 255);
+}
+
+.box img {
+    vertical-align: top;
+    position: relative;
+    cursor: pointer;
+}
+
+.img {
+    border-radius: 5px;
+}
+
+.img:hover {
+    box-shadow: 0 0 5px 1px rgb(197, 238, 144);
+}

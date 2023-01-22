@@ -1,0 +1,34 @@
+.scrollSearchResults {
+    overflow-y: scroll;
+    height: 500px;
+    width: 90%; 
+}
+
+.stringSearchResults {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.searchResultSearchResults {
+    cursor: pointer;
+    position: relative;
+}
+
+.imageSearchResults {
+    margin: 15px;
+    width: 120px;
+    height: auto;
+    vertical-align: top;
+    position: relative;
+    border-radius: 5px;
+}
+
+.imageSearchResults:hover {
+    box-shadow: 0 0 5px 1px rgb(197, 238, 144);
+}
+
+.starSearchResults {
+    position: absolute;
+    top: 110%;
+    left: 60%;
+}

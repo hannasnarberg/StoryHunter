@@ -1,0 +1,16 @@
+.containerApp {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.mainContentApp {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.randomizeAndSimilarApp {
+    display: grid;
+    margin-left: 110px;
+    margin-right: 30px;
+    grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,21 @@
+.container1BeforeRandomize {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(14, 26, 12);
+    position: relative;
+    height: 300px;
+    width: 330px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.container2BeforeRandomize {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.moveButtonBeforeRandomize {
+    margin-top: 80px;
+}

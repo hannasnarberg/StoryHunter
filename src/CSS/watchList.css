@@ -1,0 +1,92 @@
+.titleWatchList {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* width  */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: rgb(186, 209, 181);
+    box-shadow: inset 0 0 5px rgb(14, 26, 12);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+}
+
+.watchList {
+    width: 235px;
+    overflow-y: scroll;
+    position: relative;
+    height: 450px;
+}
+
+.watchListEmpty {
+    width: 235px;
+    overflow-y: scroll;
+    position: relative;
+    height: 450px;
+}
+
+.watchListEmptyText {
+    width: 220px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-right: auto;
+    margin-top: 55%;
+}
+
+.elementWatchlist {
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.imageWatchlist {
+    border-radius: 5px;
+    width: 90px;
+    margin-top: 10px;
+    height: auto;
+    vertical-align: top;
+    position: relative;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.imageWatchlist:hover {
+    box-shadow: 0 0 7px 1px rgb(197, 238, 144);
+}
+
+.starWatchList {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: scale(0.8);
+}
+
+.outerdivWatchList {
+    margin: 20px;
+}
+
+.nameSeriesWatchList {
+    display: inline;
+    position: absolute;
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 50px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.titleTextWatchList {
+    display: inline;
+    margin-right: 10px;
+}

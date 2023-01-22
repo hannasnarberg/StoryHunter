@@ -1,0 +1,47 @@
+.containerAfterRandomize {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(14, 26, 12);
+    height: 300px;
+    width: 330px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.posterContainerAfterRandomize {
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.posterContainerAfterRandomize .posterAfterRandomize {
+    vertical-align: top;
+    position: relative;
+    border-radius: 8px; 
+    height: 225px;
+    width: auto;
+    cursor: pointer;
+}
+
+.posterAfterRandomize:hover {
+    box-shadow: 0 0 10px 1px rgb(197, 238, 144);
+}
+
+.containerAfterRandomize .starAfterRandomize {
+    position: absolute;
+    top: 8%;
+    left: 60%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.moveaButtonAfterRandomize {
+    margin-top: 10px;
+}
+
+.moveCrossAfterRandomize {
+    margin-left: 45px;
+    position: absolute;
+}

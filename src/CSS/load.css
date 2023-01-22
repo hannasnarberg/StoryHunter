@@ -1,0 +1,33 @@
+.loadRandom {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(14, 26, 12);
+    height: 300px;
+    width: 330px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.loadSimilar {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(14, 26, 12);
+    height: 300px;
+    width: 330px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.loadOverview {
+    height: 100px;
+    display: block;
+    margin-left: 425px;
+    margin-top: 125px;
+}
+
+.loadSearch {
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+}

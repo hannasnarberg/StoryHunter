@@ -1,0 +1,52 @@
+.alignLeftDetails {
+    position: relative;
+    float: right;
+    margin: 20px;
+}
+
+.outerMarginDetails {
+    border-style: solid;
+    border-color: rgb(14, 26, 12);
+    border-width: 3px;
+    margin: 50px;
+    width: 900px;
+    border-radius: 10px;
+}
+.contentDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+}
+
+.infoDetails {
+    margin: 20px;
+    color: rgb(255, 255, 255);
+}
+.factsDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgb(255, 255, 255);
+}
+
+.imageBoxDetails {
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    
+}
+.imageBoxDetails .imageDetails {
+    margin-left: 70px;
+    vertical-align: top;
+    position: relative;
+    border-radius: 10px;
+}
+.imageBoxDetails .starIconDetails {
+    position: absolute;
+    top: 2%;
+    left: 110%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.crossIcon {
+    color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+
+.crossIcon:hover {
+    transform: scale(1.2);
+}

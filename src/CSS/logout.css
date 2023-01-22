@@ -1,0 +1,10 @@
+.centerContent {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: white;
+}
+
+.centerLogout {
+    margin-left: 180px;
+}
