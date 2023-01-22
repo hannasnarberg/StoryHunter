@@ -5,7 +5,7 @@
 [Click here to reach deployed application!](https://storyhunter-2a3c7.web.app/)
 
 <img
-  src="/Storyhunter.jpeg"
+  src="/Storyhunter.png"
   alt="Storyhunter"
   style="width:400px">
 
