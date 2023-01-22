@@ -15,8 +15,6 @@ StoryHunter is the website that will help you find your new favourite series! On
 
 ## Setup
 
-Make sure that you are inside the `Project-Group-37/storyhunter` folder when performing the following!
-
 ### Add config files
 
 ```
